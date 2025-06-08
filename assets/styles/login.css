@@ -1,0 +1,71 @@
+@import url(global.css);
+
+.login-container {
+  display: flex; /* Ativa o Flexbox */
+  height: 100vh;  /* Ocupa 100% da altura da viewport */
+}
+
+/* Lado esquerdo: imagem do cachorro */
+.left-side {
+  flex: 1;  /* Ocupa 1 parte proporcional (ex: 1/3 se o outro lado for 2) */
+  position: relative; /* Necessário para posicionar o texto "Welcome" dentro */
+}
+
+
+/* Imagem ocupa 100% da altura e largura da div */
+.left-side img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;        /* A imagem cobre toda a div sem distorcer */
+}
+
+/* Texto "Welcome" posicionado sobre a imagem */
+.left-side span {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font: var(--text-md);
+  color: var(--text-color-primary);
+}
+
+.right-side {
+  display: flex;
+  flex: 2; /* Ocupa 2 partes proporcionais (ex: 2/3 da tela) */
+  flex-direction: column; /* Alinha os elementos em Coluna */
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center;  /* Centraliza horizontalmente */
+  padding: 40px;
+  background-color: white;
+}
+
+/* Título Principal */
+.right-side h1 {
+  font: var(--text-xl);
+  color: var(--text-color-primary);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.right-side h2 {
+  font: var(--text-sm);
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--text-color-terciary);
+}
+
+.get-started {
+  box-shadow: none;
+  transition: background 0.3s ease;
+  margin-top: 40px;
+  padding: 12px 45px;
+  font: var(--text-button);
+  background-color: #202020;
+  color: var(--text-color-secondary);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+

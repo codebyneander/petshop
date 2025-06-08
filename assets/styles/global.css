@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+:root {
+  /* Fonts */
+  --font-family: "Inter", sans-serif;
+ 
+  --text-2xl: 400 40px/normal var(--font-family);
+  --text-xl: 700 40px/normal var(--font-family); 
+  --text-lg: 700 37px/normal var(--font-family);
+  --text-md: 700 34px/normal var(--font-family);
+  --text-location: 600 31px/normal var(--font-family);
+  --text-button: 400 30px/normal var(--font-family);
+  --text-strong: 600 28px/normal var(--font-family);
+  --text-p: 400 28px/normal var(--font-family);
+  --text-nav: 700 25px/normal var(--font-family);
+  --text-sm: 500 23px/normal var(--font-family);
+  --text-dashboard: 500 40px/normal var(--font-family);
+
+  /* Colors */
+  --text-color-primary: #000;
+  --text-color-secondary: #FFFFFF;
+  --text-color-terciary: #242323;
+}
+
+body {
+  height: 100vh;
+}
