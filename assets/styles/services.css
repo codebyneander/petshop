@@ -1,0 +1,169 @@
+@import url(global.css);
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-inline-start: 25px;
+  padding-inline-end: 71px;
+  background-color: #000000;
+  height: 111px;
+  align-items: center;
+
+  #avatar {
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+  }
+
+  span {
+    font: var(--text-nav);
+    color: var(--text-color-secondary);
+  }
+
+  img {
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
+  }
+}
+
+
+.title-services {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 70px;
+  padding-inline: 90px;
+
+  h1 {
+    font: var(--text-lg);
+    margin-left: 80px;
+    margin-top: 75px;
+  }
+}
+
+main {
+  /* border: 1px solid red; */
+  height: 700px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.card-selection {
+  display: flex;
+  height: 500px;
+  width: 83vw;
+  /* border: 1px  solid blue; */
+  gap: 50px;
+
+  .card {
+    display: flex;
+    height: 500px;
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 25px;
+    justify-content: center;
+    flex-direction: column;
+
+    .title {
+      font: var(--text-sm);
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 0.5;
+    }
+
+    ul {
+      flex: 3;
+      border-bottom: 1px #000000 solid;
+      border-top: 1px #000000 solid;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-block: 40px;
+      padding-inline: 35px;
+
+      font: var(--text-sm);
+      
+    }
+
+    #verified {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+      }
+
+      strong {
+        font: var(--text-sm);
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 165px 58px 164px;
+  background-color: #000;
+}
+
+.become-a-member {
+  background: white;
+  border-radius: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 49px 79px;
+  gap: 87px;
+  max-width: 951px;
+  width: 100%;
+}
+
+.member-text {
+  h2 {
+    font: var(--text-lg);
+    font-weight: 400;
+    margin-bottom: 36px;
+    line-height: 1.3;
+    width: 330px;
+
+    img {
+      width: 60px;
+      height: 60px;
+      vertical-align: middle;
+    }
+  }
+
+  button {
+    padding: 16px 100px;
+    background: #000000;
+    color: white;
+    font: var(--text-lg);
+    border: none;
+    border-radius: 33px;
+    cursor: pointer;
+  }
+
+  a {
+    color: white;
+    font: var(--text-lg);
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.become-a-member img {
+  width: 404px;
+  height: 269px;
+  object-fit: cover;
+  border-radius: 50px;
+}

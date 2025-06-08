@@ -33,8 +33,11 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-inline: 144px;
-  margin-block: 140px;
+  margin-inline: 120px;
+  margin-block: 120px;
+  /* border: 1px solid blue; */
+  justify-content: center;
+  align-items: center;
 
   div:first-child p {
     font: var(--text-dashboard);
@@ -134,7 +137,7 @@ nav {
 }
 
 .advice {
-  height: 1280px;
+  height: 1000px;
   width: 100vw;
   display: flex;
   justify-content: center;
