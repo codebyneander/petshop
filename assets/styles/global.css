@@ -8,7 +8,11 @@
 :root {
   /* Fonts */
   --font-family: "Inter", sans-serif;
- 
+
+
+  --font-kantumruy: "Kantumruy Pro", sans-serif;
+  --text-kantumruy: 400 20px/normal var(--font-kantumruy);
+
   --text-2xl: 400 40px/normal var(--font-family);
   --text-xl: 700 40px/normal var(--font-family); 
   --text-lg: 700 37px/normal var(--font-family);

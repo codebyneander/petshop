@@ -82,7 +82,8 @@ main {
       flex-direction: column;
       gap: 20px;
       padding-block: 40px;
-      padding-inline: 35px;
+      padding-inline: 50px;
+      list-style: none;
 
       font: var(--text-sm);
       
@@ -107,6 +108,89 @@ main {
     }
   }
 }
+
+.essentials {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 180px;
+  font: var(--text-kantumruy);
+  gap: 40px;
+  margin-bottom: 70px;
+
+  h1 {
+    font-weight: 400;
+  }
+
+  #essentials-items {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+
+    a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}
+
+.featured-services {
+  display: flex;
+  justify-content: center;
+  gap: 72px;
+  padding-block: 30px;
+  padding-inline: 30px;
+  margin-bottom: 90px;
+
+  #featured-services-card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font: var(--text-kantumruy);
+    
+    img {
+      margin-bottom: 12px;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+    }
+  }
+
+
+}
+
+
+.products {
+  padding: 60px 10%;
+  font: var(--text-kantumruy);
+  text-align: center;
+
+  h1 {
+  font-size: 28px;
+  margin-bottom: 50px;
+  }
+
+  #products-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  gap: 50px; /* espaço entre linhas e colunas */
+  justify-items: center; /* centraliza horizontalmente */
+
+  div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  }
+
+  }
+}
+
 
 .join {
   display: flex;
