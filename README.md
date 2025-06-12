@@ -8,7 +8,7 @@ Este projeto marca o **início da minha trajetória profissional como desenvolve
 
 ## 🌐 Acesse o Projeto Publicado
 
-➡️ [Clique aqui para visualizar online](https://renanguilherme.github.io/petshop/)
+➡️ [Clique aqui para visualizar online](https://codebyneander.github.io/petshop/)
 
 ---
 
